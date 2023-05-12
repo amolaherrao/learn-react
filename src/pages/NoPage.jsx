@@ -1,6 +1,6 @@
-import React from 'react'
-import MainHeader from '@/Header/MainHeader'
-import MainFooter from '@/Footer/MainFooter'
+import React from "react";
+import MainHeader from "@/Header/MainHeader";
+import MainFooter from "@/Footer/MainFooter";
 export default function NoPage() {
   return (
     <>
@@ -283,5 +283,5 @@ export default function NoPage() {
       </div>
       <MainFooter />
     </>
-  )
+  );
 }

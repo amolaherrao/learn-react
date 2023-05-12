@@ -1,7 +1,7 @@
-import React from 'react'
-import Health from '~/images/health.svg'
-import Report from '~/images/report.svg'
-import Sync from '~/images/sync.svg'
+import React from "react";
+import Health from "~/images/health.svg";
+import Report from "~/images/report.svg";
+import Sync from "~/images/sync.svg";
 export default function Features() {
   return (
     <section className="container mx-auto px-6 p-10">
@@ -45,5 +45,5 @@ export default function Features() {
         </div>
       </div>
     </section>
-  )
+  );
 }

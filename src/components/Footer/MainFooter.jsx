@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function MainFooter() {
   return (
@@ -85,5 +85,5 @@ export default function MainFooter() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

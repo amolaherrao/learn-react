@@ -1,8 +1,8 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import MainHeader from '@/Header/MainHeader'
-import MainFooter from '@/Footer/MainFooter'
-import ScrollToTop from '../helpers/ScrollToTop'
+import React from "react";
+import { Outlet } from "react-router-dom";
+import MainHeader from "@/Header/MainHeader";
+import MainFooter from "@/Footer/MainFooter";
+import ScrollToTop from "../helpers/ScrollToTop";
 export default function AppLayout() {
   return (
     <>
@@ -11,5 +11,5 @@ export default function AppLayout() {
       <Outlet />
       <MainFooter />
     </>
-  )
+  );
 }

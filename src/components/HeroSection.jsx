@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export default function HeroSection() {
   return (
     <div
       className="py-20"
-      style={{ background: 'linear-gradient(90deg, #667eea 0%, #764ba2 100%)' }}
+      style={{ background: "linear-gradient(90deg, #667eea 0%, #764ba2 100%)" }}
     >
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold mb-2 text-white">Smart Health Monitoring Wristwatch!</h2>
@@ -16,5 +16,5 @@ export default function HeroSection() {
         </button>
       </div>
     </div>
-  )
+  );
 }

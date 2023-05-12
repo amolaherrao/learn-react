@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 export default function MainHeader() {
   return (
     <header className="text-gray-600 body-font">
@@ -35,5 +35,5 @@ export default function MainHeader() {
         </nav>
       </div>
     </header>
-  )
+  );
 }
