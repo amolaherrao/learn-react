@@ -6,16 +6,19 @@ const addressSchema = Schema(
       type: String,
       trim: true,
       required: true,
+      default: "Mumbai",
     },
     state: {
       type: String,
       trim: true,
       required: true,
+      default: "Maharashtra",
     },
     pincode: {
       type: String,
       trim: true,
       required: true,
+      default: "22",
     },
     userId: {
       type: Schema.Types.ObjectId,
