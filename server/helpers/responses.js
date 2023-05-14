@@ -1,3 +1,4 @@
+import _ from "lodash";
 /**
  * @author Amol Aher
  * @param {String} message
@@ -10,14 +11,15 @@ export const success = (message, data, pages = null, total = null) => {
   const isExists = Boolean(
     data && ((data instanceof Array && data.length > 0) || data instanceof Object)
   );
-  if (isExists) {
+  const isEmpty = _.isEmpty(data);
+  if (isExists && !isEmpty) {
     if (pages && total) {
       return { message, status: 1, pages, total, data };
     } else {
       return { message, status: 1, data };
     }
   } else if (data) {
-    return { message, status: 1, id: parseInt(data) };
+    return { message, status: 1, data };
   } else {
     return { message, status: 1 };
   }
