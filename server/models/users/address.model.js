@@ -20,6 +20,16 @@ const addressSchema = Schema(
       required: true,
       default: "22",
     },
+    isDeleted: {
+      type: Boolean,
+      default: false,
+      required: true,
+    },
+    deletedAt: {
+      type: Date,
+      default: null,
+      required: true,
+    },
     userId: {
       type: Schema.Types.ObjectId,
       ref: "users",
